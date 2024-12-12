@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Sales Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Steam Sales Tracker</h1>
+      <select id="genre-selector">
+        <option value="Action">Action</option>
+        <option value="RPG">RPG</option>
+        <option value="Strategy">Strategy</option>
+        <!-- Add more genres -->
+      </select>
+      <button id="fetch-sales">Fetch Sales</button>
+    </header>
+    <main>
+      <ul id="sales-list"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
